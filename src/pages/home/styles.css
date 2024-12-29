@@ -1,0 +1,174 @@
+.menu {
+
+    border-radius: .125rem;
+    -webkit-box-shadow: 0 .25rem .3125rem -.15rem rgba(0, 0, 0, .12);
+    box-shadow: 0 .25rem .3125rem -.15rem rgba(0, 0, 0, .12);
+    background-color: hsla(0, 0%, 91.8%, .56);
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 1.375rem;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: 184.8px;
+    max-width: 11.55rem;
+    min-width: 180px;
+    min-width: 11.25rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 1.5625rem;
+    margin-right: 1.5625rem;
+    min-height: 114.88px;
+    min-height: 7.18rem;
+    height: 180px;
+    height: 11.25rem;
+    -webkit-transition: -webkit-transform .5s;
+    transition: -webkit-transform .5s;
+    -o-transition: transform .5s;
+    transition: transform .5s;
+    transition: transform .5s, -webkit-transform .5s;
+    grid-row-gap: 1.5625rem;
+  
+  }
+  
+  .items {
+    padding: 1.375rem 2.75rem;
+    grid-row-gap: 1.5625rem;
+  }
+  
+  .column {
+    float: left;
+    width: 21%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {
+    margin: 0 -5px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  .cardShadow {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .miles {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    grid-gap: 24.992px;
+    gap: 24.992px;
+    grid-gap: 1.562rem;
+    gap: 1.562rem;
+  }
+  
+  .milesImage {
+    width: 200px;
+    height: 200px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    cursor: pointer;
+  }
+  
+  .curated {
+    width: 100%;
+    margin-top: -5px;
+    margin-left: 6px;
+  }
+  
+  .curatedGrid {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+  
+  .curatedAnchor {
+    display: grid;
+    grid-template-rows: auto;
+    font-family: Gilroy, sans-serif;
+    margin: 4px 4.375rem 0 0;
+  }
+  
+  .curatedName {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    vertical-align: middle;
+    -ms-flex-align: center;
+    align-items: center;
+  
+  }
+  
+  .curatedTitle {
+    color: #000;
+    font-size: 15px;
+    font-size: .9375rem;
+    font-weight: 700;
+    padding-bottom: 8px;
+    margin-top: -3px;
+  }
+  
+  .curatedImage {
+    width: 125px;
+    height: 125px;
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+  
+  .getReady {
+    width: 100%;
+    margin-top: -5px;
+    margin-left: 6px;
+    align-items:center ;
+  }
+  
+  .getReadyImage {
+    width: 250px;
+    height: 200px;
+    border-radius: 8px;
+  }
+  
+  .getReadyName {
+  
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    vertical-align: middle;
+    -ms-flex-align: center;
+    align-items: center;
+  
+  }
+  
+  .getReadyTitle {
+    color: #000;
+    font-size: 15px;
+    font-size: .9375rem;
+    font-weight: 700;
+    padding-bottom: 8px;
+    text-align: center;
+    margin-top: 13px;
+    position: relative;
+  
+  }

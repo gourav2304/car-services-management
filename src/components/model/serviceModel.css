@@ -1,0 +1,207 @@
+.header {
+    width: 100%;
+    max-width: 45rem;
+    background-color: #f6f6f6;
+    padding: 10px;
+    z-index: 100;
+
+}
+
+.subHeader {
+    padding-bottom: 6px;
+    font-size: 1.375rem;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 8px;
+
+}
+
+.MdlTitle {
+    font-size: 22px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: .86;
+    letter-spacing: .2px;
+    text-align: left;
+    color: #282828;
+}
+
+.closeBtn {
+    margin-left: auto;
+    margin-right: 14px;
+}
+
+.selectOil {
+    color: grey;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    width: 97%;
+}
+
+.modelOuterContainer {
+    min-height: fit-content;
+    max-height: 32rem;
+    margin-top: 10px;
+    padding: 24px 14px;
+    
+}
+
+.sections {
+    justify-content: flex-start;
+    margin: 12px 0 0;
+    padding: 0;
+    overflow: auto;
+}
+
+.mdlTile {
+    color: #fff;
+    background-color: #4cb050;
+    padding: 5px 7px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    width: fit-content;
+    border-radius: 5px;
+    line-height: 1.2;
+    font-size: 16px;
+    z-index: 1;
+}
+.oilContainer{
+    display: flex;
+    grid-gap: 12px;
+    gap: 12px;
+    margin: 12px 0 0;
+    padding: 0;
+}
+.semiOil{
+    background-color: #fef7f7;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    -webkit-box-shadow: .5px 1px 3px 0 rgb(0 0 0 / 10%);
+    box-shadow: .5px 1px 3px 0 rgb(0 0 0 / 10%);
+    border: .5px solid #e6e6e6;
+    min-width: 192px;
+    min-width: 12rem;
+    max-width: 320px;
+    max-width: 20rem;
+
+}
+.oilTitleContainer{
+    
+        font-size: 15px;
+        font-weight: 400;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.27;
+        letter-spacing: .14px;
+        text-align: center;
+        color: #4a4a4a;
+        cursor: pointer;
+    
+}
+.semiContainer{
+    min-height: 8.3rem;
+    max-height: 12rem;
+    flex-direction: column;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding: 16px 16px 12px;
+    min-height: 104px;
+    min-height: 6.5rem;
+    max-height: 132.8px;
+    max-height: 8.3rem;
+}
+.oilTitle{
+    text-align: left;
+    width: fit-content;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: .14px;
+    width: 100%;
+}
+.oilName{
+    color: #e73c33;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    margin-top: 10px;
+    letter-spacing: .2px;
+    text-align: left;
+    font-size: 14px;
+}
+.oilPrice{
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 16px 16px 12px;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+.mdlPrice{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.16;
+    letter-spacing: .56px;
+    color: #000;
+
+}
+.inputContainer{
+    border: 1px solid grey;
+    border-radius: 50%;
+    display: inline-block;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+.input{
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 2px;
+    height: 7px;
+    width: 7px;
+
+}
+.priceContainer{
+        position: absolute;
+        left: 0;
+        bottom: -20px;
+        width: 100%;
+        padding: 11px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        background-color: #fff;
+        -webkit-box-shadow: 0 -2px 2px 0 rgba(0, 0, 0, .12);
+        box-shadow: 0 -2px 2px 0 rgba(0, 0, 0, .12);
+        max-width: 92.5%;
+
+}
+.price{
+    font-size: 16px;
+        font-weight: 600;
+
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.19;
+        letter-spacing: .14px;
+        text-align: left;
+}

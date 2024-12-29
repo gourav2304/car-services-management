@@ -1,0 +1,204 @@
+.imageContainer {
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.carNameContainer {
+    border-left: .375rem solid #696969;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: .125rem 1rem .125rem 0;
+}
+
+.carNameInnerContainer {
+    margin-left: 1.25rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+}
+
+.carName {
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: left;
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: .95;
+    letter-spacing: .18px;
+    letter-spacing: .01125rem;
+    color: #282828;
+}
+
+.carType {
+    margin-left: .625rem;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.19;
+    letter-spacing: .14px;
+    letter-spacing: .00875rem;
+    color: #9b9b9b;
+}
+
+.packageOuterContainer {
+    box-sizing: border-box;
+    margin: 0 1.25rem 20px;
+}
+
+.packageInnerContainer {
+    border: .0625rem solid rgba(0, 0, 0, .12);
+    min-height: 78px;
+    min-height: 4.875rem;
+}
+
+.packageNameContianer {
+    flex-direction: row;
+    padding: .875rem .8rem;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+
+}
+
+.packageName {
+    font-weight: 600;
+    text-align: left;
+    color: #282828;
+    font-size: 13px;
+    letter-spacing: .05px;
+    max-width: 60%;
+}
+
+.oilType {
+    color: #8e8383;
+    font-size: 11px;
+    margin-top: 3px;
+}
+
+:where(.css-dev-only-do-not-override-3rel02).ant-card .ant-card-body {
+    padding: 0%;
+}
+
+.priceOuterContainer {
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.priceInnerContainer {
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-weight: 500;
+    /* display: flex; */
+    flex-direction: row;
+}
+
+.priceCntr {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.oldPrice {
+    text-decoration: line-through;
+    font-size: 11px;
+    text-align: left;
+    color: #b8b8b8;
+    margin-right: 10px;
+}
+
+.newPrice {
+    font-size: 13px;
+    letter-spacing: .05px;
+    text-align: left;
+    color: #282828;
+}
+
+.priceInnerCtr {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-align: center;
+    align-items: center;
+
+}
+.subTotalContainer{
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 1.25rem;
+    margin-top: 1rem;
+}
+.subTotalInnerCntr{
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+}
+.subTotalPriceCntr{
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.subTotal{
+    font-stretch: normal;
+    font-style: normal;
+    text-align: left;
+    font-size: 20.571px;
+    font-size: 1.2857rem;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: .17px;
+    letter-spacing: .010625rem;
+    color: #4a4a4a;
+    margin-bottom: .4375rem;
+}
+.finalPrice{
+    font-size: 19px;
+    font-size: 1.1875rem;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: .17px;
+    letter-spacing: .010625rem;
+    text-align: left;
+    color: #4a4a4a;
+}
+.extraCharges{
+    font-size: 14px;
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1.36;
+    letter-spacing: .13px;
+    letter-spacing: .008125rem;
+    color: #9b9b9b;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: left;
+}

@@ -1,0 +1,79 @@
+.searchBox{
+    margin-top: 20px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding: 10px;
+    border: 1px solid hsla(0, 0%, 60.8%, .5);
+}
+.searchBoxInput{
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: .13px;
+    text-align: left;
+    color: #4a4a4a;
+    margin-left: 12px;
+        border: none;
+        outline: none;
+        width: 100%;
+    
+}
+.container{
+    -ms-flex: 1 1;
+    flex: 1 1;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: auto;
+    height: '70%';
+}
+.brandGrid{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(80px, 1fr));
+    grid-row-gap: 24px;
+    width: 100%;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.brandLogoContainer{
+    margin-bottom: 20px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex: 1 1;
+    flex: 1 1;
+    cursor: pointer;
+    -webkit-transition: -webkit-transform .2s;
+    transition: -webkit-transform .2s;
+    -o-transition: transform .2s;
+    transition: transform .2s;
+    transition: transform .2s, -webkit-transform .2s;
+}
+.brandImage {
+    width: 88px;
+    height: 60px;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+.brandName{
+    
+        margin-top: 10px;
+        font-size: 13px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: .12px;
+        text-align: left;
+        color: #282828
+}

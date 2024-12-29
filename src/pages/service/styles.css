@@ -1,0 +1,181 @@
+.border{
+    border: .0625rem solid hsla(0, 0%, 60.8%, .2);
+    width: 67%
+}
+.recommended{
+        background-color: #4cb050;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+        color: #fff;
+        padding: 4px 8px;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-top: -1px;
+        font-size: 16px;
+        border-radius: 0 0 6px 0;
+}
+.card{
+        padding: 1.125rem 0 1.125rem 1.125rem;
+        display:'-ms-flexbox';
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    
+}
+.innerCard{
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    
+}
+.img{
+    width: 160px;
+    width: 10rem;
+    height: 160px;
+    height: 10rem;
+}
+.title{
+    display: '-ms-flexbox';
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 1.875rem;
+}
+.svcName{
+        display: '-ms-flexbox';
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+}
+.svcText{
+    font-size: 22px;
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: .86;
+    letter-spacing: .2px;
+    letter-spacing: .0125rem;
+    text-align: center;
+    color: #282828;
+}
+
+.titlePosition{
+    margin-left: 1.25rem;
+    margin-top: .1875rem;
+    width: 100%;
+}
+.time{
+    padding: .375rem 1.125rem;
+    background-color: #e5e7e9;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+.timeImg {
+    width: 13px;
+    width: .8125rem;
+    height: 13px;
+    height: .8125rem;
+    margin-right: .5rem;
+    margin-top: 2.5px;
+}
+.timeText{    
+    font-size: 13px;
+    font-size: .8125rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.46;
+    letter-spacing: .12px;
+    letter-spacing: .0075rem;
+    text-align: left;
+    color: #4a4a4a;
+}
+.itemListElement{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 1.125rem;
+    grid-column-gap: .625rem;
+}
+.item{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-align: start;
+    align-items: flex-start;
+
+}
+.itemImage{
+    width: 15px;
+    width: .9375rem;
+    height: 15px;
+    height: 1.3rem;
+}
+.itemText{
+    margin-left: .5rem;
+    font-size: 15px;
+    font-size: .9375rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: .14px;
+    letter-spacing: .00875rem;
+    text-align: left;
+    color: #4a4a4a;
+}
+.priceBox{
+    display: '-ms-flexbo'x;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 1.25rem;
+    margin-right: 1.25rem;
+}
+.price{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    width: 75%;
+    margin: '10px';
+}
+.prvAmount{
+    font-size: 15.6px;
+    font-size: .975rem;
+    font-weight: 400;
+    line-height: 1.36;
+    letter-spacing: .13px;
+    letter-spacing: .008125rem;
+    color: #9b9b9b;
+    text-decoration: line-through;
+}
+.crrtPrice{
+    margin-left: 1.125rem;
+    font-size: 22px;
+    font-size: 1.375rem;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.06;
+    letter-spacing: .16px;
+    letter-spacing: .01rem;
+    text-align: left;
+    color: #282828;
+}

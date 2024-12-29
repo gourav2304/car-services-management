@@ -1,0 +1,83 @@
+/* SignUp Component Styles */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+  }
+  
+  .signup-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .signup-form h2 {
+    color: red;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    margin-bottom: 15px;
+  }
+  
+  .input-field label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .input-field input {
+    width: 93%;
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-top: 6px;
+    outline: none;
+    transition: all 0.3s;
+  }
+  
+  .input-field input:focus {
+    border-color: red;
+  }
+  
+  .signup {
+    width: 100%;
+    padding: 12px;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  button:hover {
+    background-color: darkred;
+  }
+  
+  .signup-link {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .signup-link a {
+    color: red;
+    text-decoration: none;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+  
